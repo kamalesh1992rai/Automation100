@@ -1,0 +1,168 @@
+kamal@Kamlesh-Rai MINGW64 ~
+$ git --version
+git version 2.47.0.windows.1
+
+kamal@Kamlesh-Rai MINGW64 ~
+$ cd D:
+
+kamal@Kamlesh-Rai MINGW64 /d
+$ mkdir CodeRepository
+
+kamal@Kamlesh-Rai MINGW64 /d
+$ cd CodeRepository/
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository
+$ pwd
+/d/CodeRepository
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository
+$ git init
+Initialized empty Git repository in D:/CodeRepository/.git/
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ pwd
+/d/CodeRepository
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TC002_Testingworldlogin.robot
+        TC003_recorded_testcase.robot
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git add^C
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git add TC002_Testingworldlogin.robot
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   TC002_Testingworldlogin.robot
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TC003_recorded_testcase.robot
+
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git add .
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   TC002_Testingworldlogin.robot
+        new file:   TC003_recorded_testcase.robot
+
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git commit -m "This is Automation Started"
+[master (root-commit) 48060d8] This is Automation Started
+ 2 files changed, 45 insertions(+)
+ create mode 100644 TC002_Testingworldlogin.robot
+ create mode 100644 TC003_recorded_testcase.robot
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   TC003_recorded_testcase.robot
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TC002_Testingworldlogin2.7z
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git add .
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   TC002_Testingworldlogin2.7z
+        modified:   TC003_recorded_testcase.robot
+
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git commit -m "This is updated"
+[master 9707de3] This is updated
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 TC002_Testingworldlogin2.7z
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   TC003_recorded_testcase.robot
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TC002_Testingworldlogin2.7z
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git add .
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   TC002_Testingworldlogin2.7z
+        modified:   TC003_recorded_testcase.robot
+
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git commit -m "This is updated"
+[master 9707de3] This is updated
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 TC002_Testingworldlogin2.7z
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$ ^C
+
+kamal@Kamlesh-Rai MINGW64 /d/CodeRepository (master)
+$
