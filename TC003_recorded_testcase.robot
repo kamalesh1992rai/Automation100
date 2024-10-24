@@ -19,3 +19,4 @@ TC_001
     Input Text    //input[@name="address"]    Vill+post-bagar, Dist-bhojpur
     Select From List By Value    //select[@name="country"]    101
     Input Text    //input[@name="zip"]    802222
+    close browser
